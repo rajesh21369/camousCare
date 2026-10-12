@@ -127,7 +127,6 @@ public class UserService {
             c2.setSubmissionDate(now.minus(5, java.time.temporal.ChronoUnit.DAYS));
             c2.setDueDate(now.minus(3, java.time.temporal.ChronoUnit.DAYS));
             c2.setResolutionDate(now.minus(1, java.time.temporal.ChronoUnit.DAYS));
-            c2.setResolutionSummary("Filter cartridge replaced and pipe lines flushed. Pressure restored.");
             c2.setCreatedAt(now.minus(5, java.time.temporal.ChronoUnit.DAYS));
             c2.setUpdatedAt(now.minus(1, java.time.temporal.ChronoUnit.DAYS));
             complaintRepository.save(c2);
